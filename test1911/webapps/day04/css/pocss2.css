@@ -1,0 +1,9 @@
+@charset "UTF-8";
+#container{
+	background-color: #ff8800;
+	border: 5px solid #aaa;
+	width:215px;
+	height: 300px;
+	padding: 20px 40px 60px 80px;
+	/*        上       右       下       左                   */
+}

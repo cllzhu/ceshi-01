@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.row>div{
+	background-image: url(../img/cat.jpg);
+	width:121px;
+	height: 121px;
+}
+
+.row>.line{
+	display: inline-block; 
+}
+#more{
+	width:242px;
+	height: 242px;
+}
+
+#big{
+	width:242px;
+	height: 242px;
+	background-size: 100%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div {
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div id="num1"></div>
+	+
+	<div id="num2"></div>
+	=
+	<input id="res" size="4">
+	<br>
+	<input type="button" value="判卷" onclick="score()">
+	<div id="msg"></div>
+	<script type="text/javascript">
+	//生成两个随机数
+	var n1=parseInt(Math.random()*10)+1;
+	var n2=parseInt(Math.random()*10)+1;
+	//将生成的随机数放入div中
+	num1.innerText=n1;
+	num2.innerText=n2;
+	
+	//当用户点击按钮时运行
+	function score(){
+		//取出用户输入的值
+		var r=res.value;
+		//计算正确的和
+		var sum=n1+n2;
+		if(r==sum){
+			msg.innerText="100分!"
+		}else{
+			msg.innerText="0分";
+		}
+	}
+	
+	
+	
+	
+	
+	</script>
+
+
+</body>
+</html>

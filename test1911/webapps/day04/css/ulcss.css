@@ -1,0 +1,27 @@
+@charset "UTF-8";
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+#nav{
+	color: #ffffff;
+	text-align: center;
+}
+.type-list{
+	background-color: #4288c3;
+	width:90px;
+	border-radius: 10px;
+	padding:5px 0;
+}
+.type-list li{
+	list-style-type: none;
+}
+
+.type-list li:hover {
+	background-color: #ffffff; 
+	color:  #4288c3;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+

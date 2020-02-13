@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+.row>div{
+	width: 121px;
+	height: 121px;
+	background-image: url(../img/cat.jpg);
+}
+.row>.line{
+	display: inline-block;
+}
+
+#more{
+	height: 242px;
+	width: 242px;
+	/*background-repeat: repeat;*/
+}
+
+#big{
+	height: 242px;
+	width: 242px;
+	background-size: 100%;
+}
+
+
+
+
+
+

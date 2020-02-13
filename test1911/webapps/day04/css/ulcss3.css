@@ -1,0 +1,31 @@
+@charset "UTF-8";
+ul,li{
+	padding: 0;
+	margin: 0;
+}
+
+.type-list{
+	background-color: #4288c3;
+	width: 90px;
+	text-align: center;
+	color: #fff;
+	padding: 5px 0;
+	border-radius: 10px;
+}
+
+.type-list>li{
+	list-style: none;
+}
+
+.type-list>li:hover{
+	background-color: #fff;
+	color: #4288c3;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+
+
+
+

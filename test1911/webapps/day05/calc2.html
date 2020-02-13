@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div {
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div id="num1"></div>
+	<div id="op"></div>
+	<div id="num2"></div>
+	=
+	<input id="res" size="4">
+	<br>
+	<input type="button" value="判卷" onclick="score()">
+	<div id="msg"></div>
+	<script type="text/javascript">
+	var n1=parseInt(Math.random()*10)+1;
+	var n2=parseInt(Math.random()*10)+1;
+	var o=parseInt(Math.random()*4);
+	var os=["+","-","×","÷"];
+	
+	op.innerHTML=os[o];
+	num1.innerHTML=n1;
+	num2.innerHTML=n2;
+	function score(){
+		var r=res.value;
+		var n;
+		switch(o){
+		case 0:
+			n=n1+n2;
+			break;
+		case 1:
+			n=n1-n2;
+			break;
+		case 2:
+			n=n1*n2;
+			break;
+		case 3:
+			n=parseInt(n1/n2);
+			break;
+		}
+		if(r==n){
+			msg.innerHTML="100分!";
+		}else{
+			msg.innerHTML="0分!";
+		}
+		
+	}
+	
+	</script>
+
+
+</body>
+</html>
